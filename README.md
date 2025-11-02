@@ -69,7 +69,7 @@ Sistem menekankan **konsep OOP** dengan penerapan enkapsulasi, array dua dimensi
 ## Struktur Program & Kelas
 
 ```
-TiketKonser/
+KELOMPOK-6_STUDI-KASUS-7/
 │
 ├── README.md                  # Dokumentasi program
 ├── src/
