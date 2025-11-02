@@ -35,7 +35,7 @@ Program ini berbasis console, menampilkan denah tempat duduk, status kursi (O = 
 Cerita Sistem:
 Program ini dibuat sebagai simulasi manajemen pemesanan tiket konser. Sistem ini memungkinkan pengguna untuk melihat denah tempat duduk, memilih kursi, dan menghitung total harga tiket berdasarkan zona tempat duduk (VIP, Regular, Tribune). Setiap kursi memiliki status `tersedia` atau `dipesan`.
 
-Sistem menekankan **konsep OOP** dengan penerapan enkapsulasi, array dua dimensi, objek Kursi, serta interaksi antarobjek DenahTempatDuduk dan Tiket. Implementasi ini membantu mahasiswa memahami logika pemrograman berorientasi objek, array, loop, dan manajemen state objek.
+Sistem menekankan konsep OOP dengan penerapan enkapsulasi, array dua dimensi, objek Kursi, serta interaksi antarobjek DenahTempatDuduk dan Tiket. Implementasi ini membantu mahasiswa memahami logika pemrograman berorientasi objek, array, loop, dan manajemen state objek.
 
 ---
 
