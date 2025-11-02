@@ -26,7 +26,6 @@ Program ini berbasis console, menampilkan denah tempat duduk, status kursi (O = 
 * Konsep dan Implementasi OOP
 * Struktur Program & Kelas
 * Instalasi dan Setup
-* Penggunaan Program
 
 ---
 
@@ -121,14 +120,5 @@ java -cp bin MainKonser
    * Regular = 300.000
    * Tribune = 150.000
 5. Program menampilkan tiket beserta ringkasan pemesanan
-
----
-
-## Pengembangan Sistem Lanjutan
-
-1. **GUI/Visualisasi**: Implementasi Java Swing / JavaFX untuk tampilan interaktif
-2. **Multi-user & Database**: Simpan status kursi di MySQL atau SQLite agar pemesanan bersifat persisten
-3. **Integrasi Tiket Digital**: Generate QR code untuk tiap pemesanan
-4. **Online Booking Simulation**: Integrasi server-client untuk simulasi pemesanan real-time
 
 ---
