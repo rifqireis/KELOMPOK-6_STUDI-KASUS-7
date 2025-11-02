@@ -16,7 +16,7 @@ Simulasi Sistem Pemesanan Tiket Konser Berbasis Java dengan Konsep OOP
 
 ## Dashboard / Tampilan Program
 
-Program ini berbasis console, menampilkan denah tempat duduk, status kursi (O = tersedia, X = sudah dipesan), dan opsi pemesanan tiket. Program dapat dikembangkan ke GUI menggunakan Java Swing atau JavaFX.
+Program ini berbasis console, menampilkan denah tempat duduk, status kursi (O = tersedia, X = sudah dipesan), dan opsi pemesanan tiket.
 
 ---
 
