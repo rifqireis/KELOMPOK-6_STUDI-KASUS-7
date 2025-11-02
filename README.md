@@ -75,7 +75,7 @@ KELOMPOK-6_STUDI-KASUS-7/
 │   ├── MainKonser.java        # Driver program utama
 │   ├── DenahTempatDuduk.java  # Kelas denah tempat duduk (layout kursi)
 │   ├── Kursi.java             # Kelas kursi (atribut & method)
-│   └── Tiket.java             # Kelas Tiket (opsional, menyimpan data pemesanan)
+│   └── Tiket.java             # Kelas Tiket
 └── assets/
     └── diagram_alur.png       # Flowchart alur pemesanan
 ```
