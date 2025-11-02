@@ -4,9 +4,9 @@ Simulasi Sistem Pemesanan Tiket Konser Berbasis Java dengan Konsep OOP
 
 ## Anggota Kelompok
 
-1. Deeba
-2. Rifqi Reis Ramadhan
-3. Sri Wahyuni
+1. Rifqi Reis Ramadhan - G1A025003
+2. Fayola Deeba Fathinah - G1A025028
+3. Sri Wahyuni - G1A025047
 
 ---
 
@@ -23,7 +23,6 @@ Program ini berbasis console, menampilkan denah tempat duduk, status kursi (O = 
 * Struktur Program & Kelas
 * Instalasi dan Setup
 * Penggunaan Program
-* Pengembangan Sistem Lanjutan
 
 ---
 
