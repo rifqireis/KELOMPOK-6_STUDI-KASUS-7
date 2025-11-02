@@ -5,11 +5,11 @@ Simulasi Sistem Pemesanan Tiket Konser Berbasis Java dengan Konsep OOP
 ## Anggota Kelompok
 
 
-| No | Nama Lengkap            | NIM        | Peran                |
-|----|-------------------------|------------|---------------------|
-| 1  | Rifqi Reis Ramadhan     | G1A025003  | Project Lead 🚀     |
-| 2  | Fayola Deeba Fathinah   | G1A025028  | Designer 🎨          |
-| 3  | Sri Wahyuni             | G1A025047  | Developer 💻        |
+| No | Nama Lengkap            | NIM        | 
+|----|-------------------------|------------|
+| 1  | Rifqi Reis Ramadhan     | G1A025003  | 
+| 2  | Fayola Deeba Fathinah   | G1A025028  |
+| 3  | Sri Wahyuni             | G1A025047  | 
 
 
 ---
