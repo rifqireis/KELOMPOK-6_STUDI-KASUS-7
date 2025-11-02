@@ -74,7 +74,7 @@ TiketKonser/
 │   ├── Kursi.java             # Kelas kursi (atribut & method)
 │   └── Tiket.java             # Kelas Tiket (opsional, menyimpan data pemesanan)
 └── assets/
-    └── diagram_alur.png       # Flowchart alur pemesanan (opsional)
+    └── diagram_alur.png       # Flowchart alur pemesanan
 ```
 
 ---
