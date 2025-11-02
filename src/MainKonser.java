@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MainKonser {
     public static void main(String[] args) {
+
         DenahTempatDuduk denah = new DenahTempatDuduk(3, 4);
         double hargaVIP = 500000.0;
         double hargaRegular = 300000.0;
@@ -53,6 +54,7 @@ public class MainKonser {
                 } else {
                     System.out.println("Input tidak valid. Masukkan angka.");
                     scanner.next();
+                }
             }
 
             int kolom = -1;
@@ -75,7 +77,7 @@ public class MainKonser {
                 totalTiketTerjual++;
                 totalPendapatan += denah.hitungTotalHarga(kursiDipilih);
             }
-            
+
             System.out.println("Tekan ENTER untuk melanjutkan pemesanan...");
             scanner.nextLine();
         }
@@ -86,5 +88,4 @@ public class MainKonser {
         System.out.printf("Total Pendapatan: Rp %.2f%n", totalPendapatan);
         scanner.close();
     }
-}
 }
