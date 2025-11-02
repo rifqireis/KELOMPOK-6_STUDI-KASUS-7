@@ -129,15 +129,3 @@ java -cp bin MainKonser
 4. **Online Booking Simulation**: Integrasi server-client untuk simulasi pemesanan real-time
 
 ---
-
-## Catatan Pengembangan & Referensi Kodingan
-
-* Selama pengembangan, tim sering membahas:
-
-  * Hubungan antar objek (`DenahTempatDuduk` ↔ `Kursi`)
-  * Array 2D dan nested loop untuk layout kursi
-  * Enkapsulasi, atribut `private`, dan penggunaan konstruktor
-  * Logika `return` untuk fungsi pemesanan
-* Kode dibuat modular agar mudah dipahami, dikembangkan, dan dijaga prinsip OOP-nya.
-
-Apakah mau aku buat versi itu juga?
