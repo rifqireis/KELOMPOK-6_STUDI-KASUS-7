@@ -4,6 +4,7 @@ public class MainKonser {
     public static void main(String[] args) {
 
         DenahTempatDuduk denah = new DenahTempatDuduk(3, 4);
+
         double hargaVIP = 500000.0;
         double hargaRegular = 300000.0;
         double hargaTribune = 150000.0;
@@ -27,8 +28,6 @@ public class MainKonser {
         }
 
         Scanner scanner = new Scanner(System.in);
-        int totalTiketTerjual = 0;
-        double totalPendapatan = 0.0;
         boolean lanjutkanPemesanan = true;
 
         System.out.println("SIMULASI SISTEM TIKET KONSER INTERAKTIF 🎶");
@@ -42,7 +41,6 @@ public class MainKonser {
             String nama = scanner.nextLine();
 
             if (nama.equalsIgnoreCase("selesai")) {
-                lanjutkanPemesanan = false;
                 break;
             }
 
@@ -70,22 +68,19 @@ public class MainKonser {
             scanner.nextLine();
 
             Kursi kursiDipilih = denah.pesanKursi(baris, kolom);
-
             if (kursiDipilih != null) {
-                Tiket tiketBaru = new Tiket(nama, kursiDipilih);
-                tiketBaru.tampilkanTiket();
-                totalTiketTerjual++;
-                totalPendapatan += denah.hitungTotalHarga(kursiDipilih);
+                Tiket tiket = new Tiket(nama, kursiDipilih);
+                tiket.tampilkanTiket();
             }
 
             System.out.println("Tekan ENTER untuk melanjutkan pemesanan...");
             scanner.nextLine();
         }
 
-        System.out.println("\n\n=== LAPORAN AKHIR SIMULASI ===");
+        System.out.println("\n=== SIMULASI SELESAI ===");
         denah.tampilkanDenah();
-        System.out.println("Total Tiket Terjual: " + totalTiketTerjual + " tiket");
-        System.out.printf("Total Pendapatan: Rp %.2f%n", totalPendapatan);
+        System.out.printf("Total Harga Semua Kursi yang Dipesan: Rp %.2f%n", denah.hitungTotalHarga());
+
         scanner.close();
     }
 }
