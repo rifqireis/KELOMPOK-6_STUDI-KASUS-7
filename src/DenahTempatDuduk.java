@@ -1,6 +1,5 @@
-    public class DenahTempatDuduk {
-
-    private Kursi[][] layout; 
+public class DenahTempatDuduk {
+    private Kursi[][] layout;
 
     public DenahTempatDuduk(int baris, int kolom) {
         this.layout = new Kursi[baris][kolom];
@@ -44,8 +43,8 @@
         Kursi kursiDipilih = layout[baris][kolom];
 
         if (kursiDipilih.isDipesan()) {
-           System.out.println("Pemesanan Gagal! Kursi (" + baris + ", " + kolom + ") sudah terisi.");
-            return null; 
+            System.out.println("Pemesanan Gagal! Kursi (" + baris + ", " + kolom + ") sudah terisi.");
+            return null;
         }
 
         if (kursiDipilih.pesanKursi()) {
@@ -55,8 +54,15 @@
         return null;
     }
 
-    public double hitungTotalHarga(Kursi kursi) {
-        return kursi.getHarga();
+    public double hitungTotalHarga() {
+        double total = 0.0;
+        for (int i = 0; i < layout.length; i++) {
+            for (int j = 0; j < layout[i].length; j++) {
+                if (layout[i][j].isDipesan()) {
+                    total += layout[i][j].getHarga();
+                }
+            }
+        }
+        return total;
     }
 }
-  
