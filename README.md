@@ -113,6 +113,6 @@ java -cp bin MainKonser
    * VIP = 500.000
    * Regular = 300.000
    * Tribune = 150.000
-5. Program menampilkan tiket beserta ringkasan pemesanan
+5. Program menampilkan tiketbesertar total harga
 
 ---
