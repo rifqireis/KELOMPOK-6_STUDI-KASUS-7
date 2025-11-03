@@ -61,7 +61,6 @@ Sistem menekankan konsep OOP dengan penerapan enkapsulasi, array dua dimensi, ob
 ### 4. Konsep Return Value
 
 * Method `pesanKursi()` mengembalikan boolean atau objek Tiket sebagai nilai akhir.
-* Nilai yang dikembalikan berfungsi seperti `f(x)` pada fungsi matematika, sedangkan perhitungan sementara di dalam method seperti variabel `angkaBeda` hanya digunakan sebagai langkah internal.
 
 ---
 
@@ -88,11 +87,6 @@ KELOMPOK-6_STUDI-KASUS-7/
 
 * Pastikan Java JDK terinstal (minimal versi 17)
 * Clone atau download project:
-
-```bash
-git clone [repository-url]
-cd TiketKonser
-```
 
 ### 2. Compile & Run
 
